@@ -1,7 +1,7 @@
 class Camera{
     constructor(position){
         this.position = position
-        this.speed = 5
+        this.speed = 10
     }
     move(dx, dz){
         this.position.x += dx * this.speed

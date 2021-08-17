@@ -1,4 +1,38 @@
-body{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+div {
+    position: absolute; 
+    left: 0; 
+    right: 0;
+   bottom:0vh; 
+    margin-left: auto; 
+    margin-right: auto; 
+width:30vw;
+height:5vh;
+padding:3em;
+background-color: darkslategrey;
+z-index: 10000 !important;
+border-radius:50% 50% 0 0 ;
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(51, 80, 80)), color-stop(0.67, rgb(68, 80, 80)));
+border: 2px solid black;
+}
+
+
+p{
+position: relative;
+top:-3vh;
+    text-align: center;
+    color:white;
+    text-shadow:black 2.5px 2.5px 5px;
+    font-family: 'Noticia Text', serif;
+    font-size: 23px;
 }
