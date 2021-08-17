@@ -3,7 +3,7 @@ const PixelType = {
     Grass: 1,
     Water: 2,
     Sand: 3,
-    Dirt: 4,
+    Dirt: 7,
     Snow: 5
 }
 

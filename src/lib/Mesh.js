@@ -18,7 +18,7 @@ class Mesh{
               } else if (pixel.type == PixelType.Sand){
                  rgb = [255, 193, 7]
               } else if (pixel.type == PixelType.Dirt){
-                  rgb = [74, 48, 39]
+                  rgb = [59, 129, 59]
               } else {
                   rgb = [249, 249, 249]
             }
