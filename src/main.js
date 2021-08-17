@@ -1,6 +1,6 @@
 const chunk = document.getElementById('chunk')
 const context = chunk.getContext('2d')
-const title = "Noise map - Simulator"
+const title = "Noise Map Generator"
 
 context.canvas.width = WINDOW_WIDTH
 context.canvas.height = WINDOW_HEIGHT
